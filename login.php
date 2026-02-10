@@ -6,7 +6,6 @@ if (isLoggedIn()) {
     header('Location: dashboard.php');
     exit();
 }
-
 $page_title = "Login";
 ?>
 <!DOCTYPE html>
